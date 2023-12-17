@@ -1,16 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Comments from './Components/Comments';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import Menu from './Components/Menu';
+import Reservation from './Components/Reservation';
 
 function App() {
   return (
     <>
-      <header>Header</header>
+      <Header />
+      <Hero />
       <main>
-        <h1>LittleLemon</h1>
-        <p>Delicious meals for everyone!</p>
-        <button>Reserve a table</button>
+        <Menu />
+        <Reservation />
+        <Comments />
       </main>
-      <footer>Footer</footer>      
+      <Footer />
     </>
   );
 }
